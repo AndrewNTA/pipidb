@@ -37,7 +37,7 @@
   {
     "userId": 1,
     "id": 6,
-    "title": "The newly created AppContext",
+    "title": "The newly AppContext",
     "description": "Have you ever passed a property to a React component for no other reason but just to be able to pass it down to a child of that component?",
     "body": "The newly created AppContext will be used to build a context provider component. This provider will store, in its state, the data we need and it will wrap all of the content of the Red component"
   },
@@ -65,7 +65,7 @@
   {
     "userId": 5,
     "id": 10,
-    "title": "How to build React App",
+    "title": "Wrapping everything  App",
     "description": "Unless you are working on a very basic app you will need a way to update/change the data that comes from the React Context.",
     "body": "Still in its early phase React 16.3 Context API can be used as an alternative to the classic state management alternative if your sole purpose of using a state management library is avoiding prop drilling."
   }
@@ -73,7 +73,7 @@
   "users": [{
       "id": 1,
       "name": "Le Van Nam",
-      "username": "NamDepTrai",
+      "username": "Nam Le",
       "email": "namle@gmail.com",
       "address": {
         "street": "Le Loi",
@@ -88,7 +88,7 @@
     {
       "id": 2,
       "name": "Nguyen Van Duc",
-      "username": "DucVanNguyen",
+      "username": "Duc Van Nguyen",
       "email": "ducnguyen@gmail.com",
       "address": {
         "street": "Le Quang Dinh",
@@ -103,7 +103,7 @@
     {
       "id": 3,
       "name": "Tran Cong Canh",
-      "username": "Ussop Brife",
+      "username": "Canh Tran",
       "email": "canhtran@gmail.com",
       "address": {
         "street": "Dien Bien Phu",
@@ -133,7 +133,7 @@
     {
       "id": 5,
       "name": "Van Xuan Ty",
-      "username": "XuanTyChungTinh",
+      "username": "Xuan Ty",
       "email": "vanxuanty@gmail.com",
       "address": {
         "street": "Huynh Dinh Hai",

@@ -159,6 +159,21 @@
       "company": {
         "name": "Hello Kitchen"
       }
+    },
+    {
+      "id": 269,
+      "name": "Maichel",
+      "username": "Loose Tran",
+      "email": "pongtn@gmail.com",
+      "address": {
+        "street": "Quang",
+        "city": "Da Nang",
+        "zipcode": "78000"
+      },
+      "phone": "0939 338 433",
+      "company": {
+        "name": "Hello Marvel"
+      }
     }
   ]
 }

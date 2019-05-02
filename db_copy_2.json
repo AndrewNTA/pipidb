@@ -1,0 +1,9 @@
+{
+  "posts": [{
+    "userId": 1,
+    "id": 1,
+    "title": "How to build React App?",
+    "description": "Have you ever passed a property to a React component for no other reason but just to be able to pass it down to a child of that component?",
+    "body": "Have you ever passed a property to a React component for no other reason but just to be able to pass it down to a child of that component? Well, this is exactly what the new React Context API tries to fix."
+  }]
+}

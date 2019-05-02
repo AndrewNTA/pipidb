@@ -1,0 +1,179 @@
+{
+  "posts": [{
+    "userId": 1,
+    "id": 1,
+    "title": "How to build React App?",
+    "description": "Have you ever passed a property to a React component for no other reason but just to be able to pass it down to a child of that component?",
+    "body": "Have you ever passed a property to a React component for no other reason but just to be able to pass it down to a child of that component? Well, this is exactly what the new React Context API tries to fix."
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "Prefer video tutorials?",
+    "description": "We have to send the data to the Blue component only to “drill” it down to the Green component. And this is a simple case.",
+    "body": "We have to send the data to the Blue component only to “drill” it down to the Green component. And this is a simple case. Imagine what will happen if we have ten levels of parent-child React components."
+  },
+  {
+    "userId": 2,
+    "id": 3,
+    "title": "Mobx or any other library",
+    "description": "Till React 16.3 the standard solution to problems like this one was Redux or Mobx or any other library that deals with state management.",
+    "body": "Have you ever passed a property to a React component for no other reason but just to be able to pass it down to a child of that component? Well, this is exactly what the new React Context API tries to fix."
+  },
+  {
+    "userId": 3,
+    "id": 4,
+    "title": "Solution to problems",
+    "description": "Have you ever passed a property to a React component just to be able to pass it down to a child of that component?",
+    "body": "Till React 16.3 the standard solution to problems like this one was Redux or Mobx or any other library that deals with state management. But now, we have the solution embedded into React."
+  },
+  {
+    "userId": 4,
+    "id": 5,
+    "title": "How to use React Context?",
+    "description": "With React Context we can define something like an “application global state” and use that data where needed.",
+    "body": "What React Context is allowing us to do is to define data stores and access them where they are needed. We don’t have to pass down data through properties any more. With React Context we can define something like an “application global state” and use that data where needed."
+  },
+  {
+    "userId": 1,
+    "id": 6,
+    "title": "The newly AppContext",
+    "description": "Have you ever passed a property to a React component for no other reason but just to be able to pass it down to a child of that component?",
+    "body": "The newly created AppContext will be used to build a context provider component. This provider will store, in its state, the data we need and it will wrap all of the content of the Red component"
+  },
+  {
+    "userId": 5,
+    "id": 7,
+    "title": "Long story short",
+    "description": "HNow, with the provider installed if we want to access some data from the provider we can easily use the context consumer",
+    "body": "Long story short: by wrapping everything in this AppProvider we can easily inject the data from the value attribute where needed. Given the fact that AppProvider will be used as a wrapper component it’s important to use the {this.props.children} in the render method."
+  },
+  {
+    "userId": 6,
+    "id": 8,
+    "title": "Have you ever passed",
+    "description": "All the data that we added to the value property of AppContext.Provider is now made available by the context parameter of the arrow function.",
+    "body": "Have you ever passed a property to a React component for no other reason but just to be able to pass it down to a child of that component? Well, this is exactly what the new React Context API tries to fix."
+  },
+  {
+    "userId": 6,
+    "id": 9,
+    "title": "How to build React App",
+    "description": "Long story short: by wrapping everything in this AppProvider we can easily inject the data from the value attribute",
+    "body": "Please note that we are not anymore passing down the number property to the Blue component or the Green one anymore. All of this data is now handled by the React Context mechanism."
+  },
+  {
+    "userId": 5,
+    "id": 10,
+    "title": "Wrapping everything  App",
+    "description": "Unless you are working on a very basic app you will need a way to update/change the data that comes from the React Context.",
+    "body": "Still in its early phase React 16.3 Context API can be used as an alternative to the classic state management alternative if your sole purpose of using a state management library is avoiding prop drilling."
+  }
+],
+  "users": [{
+      "id": 1,
+      "name": "Le Van Nam",
+      "username": "Nam Le",
+      "email": "namle@gmail.com",
+      "address": {
+        "street": "Le Loi",
+        "city": "Ha Noi",
+        "zipcode": "30000"
+      },
+      "phone": "0987 099 888",
+      "company": {
+        "name": "Song Long"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nguyen Van Duc",
+      "username": "Duc Van Nguyen",
+      "email": "ducnguyen@gmail.com",
+      "address": {
+        "street": "Le Quang Dinh",
+        "city": "Ho Chi Minh",
+        "zipcode": "70000"
+      },
+      "phone": "0977 888 999",
+      "company": {
+        "name": "Logitech"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Tran Cong Canh",
+      "username": "Canh Tran",
+      "email": "canhtran@gmail.com",
+      "address": {
+        "street": "Dien Bien Phu",
+        "city": "Ho Chi Minh",
+        "zipcode": "70000"
+      },
+      "phone": "0999 888 888",
+      "company": {
+        "name": "Romaguera Crona"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Tran Thi Lan",
+      "username": "Lan Tran",
+      "email": "lantran@gmail.com",
+      "address": {
+        "street": "Bau Cat",
+        "city": "Ho Chi Minh",
+        "zipcode": "70000"
+      },
+      "phone": "0987 456 123",
+      "company": {
+        "name": "KMS Technology"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Van Xuan Ty",
+      "username": "Xuan Ty",
+      "email": "vanxuanty@gmail.com",
+      "address": {
+        "street": "Huynh Dinh Hai",
+        "city": "Ho Chi Minh",
+        "zipcode": "70000"
+      },
+      "phone": "0986 686 868",
+      "company": {
+        "name": "Bro fit tech"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Tran Ngoc Phuong",
+      "username": "Phuong Tran",
+      "email": "phuongtran@gmail.com",
+      "address": {
+        "street": "Quang Trung",
+        "city": "Da Nang",
+        "zipcode": "10000"
+      },
+      "phone": "0989 678 456",
+      "company": {
+        "name": "Hello Kitchen"
+      }
+    },
+    {
+      "id": 269,
+      "name": "Maichel",
+      "username": "Loose Tran",
+      "email": "pongtn@gmail.com",
+      "address": {
+        "street": "Quang",
+        "city": "Da Nang",
+        "zipcode": "78000"
+      },
+      "phone": "0939 338 433",
+      "company": {
+        "name": "Hello Marvel"
+      }
+    }
+  ]
+}

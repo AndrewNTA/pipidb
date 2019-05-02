@@ -160,5 +160,20 @@
         "name": "Hello Kitchen"
       }
     }
+{
+      "id": 99,
+      "name": "XuanTY",
+      "username": "Phuong Tran",
+      "email": "phuongtran@gmail.com",
+      "address": {
+        "street": "Quang Trung",
+        "city": "Da Nang",
+        "zipcode": "10000"
+      },
+      "phone": "0989 678 456",
+      "company": {
+        "name": "Hello Kitchen"
+      }
+    }
   ]
 }
